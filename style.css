@@ -1,0 +1,23 @@
+@keyframes spin {
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+
+  @keyframes psychadelic {
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+  .spinner{
+      font-size: 50px;
+      text-align: center;
+      animation: 2s spin linear;
+      display: none;
+  }
+  .dog-img{
+    display: none;
+  }
+  .show{
+      display: block;
+  }
